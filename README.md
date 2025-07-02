@@ -28,4 +28,4 @@ Aplikasi Android ini dibuat untuk mempermudah pengelolaan data sembako. Dengan f
 ## 📦 Cara Menjalankan
 1. Clone repository ini:
    ```bash
-   git clone [link repository kamu]
+   git clone https://github.com/napoleones1/Aplikasi-Sembako-Android-Studio.git
