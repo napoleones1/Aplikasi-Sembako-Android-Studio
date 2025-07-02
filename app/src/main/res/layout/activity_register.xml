@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/registerTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"/>
+
+    <!-- Username Field -->
+    <EditText
+        android:id="@+id/newUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:layout_below="@id/registerTitle"
+        android:layout_marginTop="30dp"
+        android:padding="10dp"
+        android:background="@android:drawable/edit_text"
+        android:inputType="textPersonName"/>
+
+    <!-- Password Field -->
+    <EditText
+        android:id="@+id/newPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:layout_below="@id/newUsername"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:background="@android:drawable/edit_text"
+        android:inputType="textPassword"/>
+
+    <!-- Confirm Password Field -->
+    <EditText
+        android:id="@+id/confirmPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Confirm Password"
+        android:layout_below="@id/newPassword"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:background="@android:drawable/edit_text"
+        android:inputType="textPassword"/>
+
+    <!-- Register Button -->
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:layout_below="@id/confirmPassword"
+        android:layout_marginTop="30dp"
+        android:background="#4CAF50"
+        android:textColor="#FFFFFF"/>
+
+    <!-- Login Button -->
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Already have an account? Login"
+        android:layout_below="@id/registerButton"
+        android:layout_marginTop="10dp"
+        android:background="#2196F3"
+        android:textColor="#FFFFFF"/>
+</RelativeLayout>
