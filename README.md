@@ -16,7 +16,7 @@ Aplikasi Android ini dibuat untuk mempermudah pengelolaan data sembako. Dengan f
 
 ## 👨‍💻 Tim Pengembang
 - **Muhamad Haikal**  
-- **Fadhil Muhammad**  
+- **Fadil Muhammad**  
 
 ## 🛠️ Tools & Teknologi
 - Android Studio  
